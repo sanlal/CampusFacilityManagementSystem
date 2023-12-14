@@ -16,3 +16,4 @@ Password: admin
 Email   : san@gmail.com
 Password: password
 
+**I have not uploaded PLUGIN which is part of the assets part of the admin folder**
