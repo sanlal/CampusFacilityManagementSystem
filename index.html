@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Campus Facility Management System</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/half-slider.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #040505;
+            margin: 0;
+        }
+
+        .container {
+            margin-top: 20px;
+        }
+
+        .navbar {
+            background-color: #0a0d0d;
+            border: none;
+            border-radius: 0;
+            margin-bottom: 0;
+        }
+
+        .navbar-brand,
+        .navbar-nav li a {
+            color: #f9f8fd !important;
+            font-weight: bold;
+            padding: 15px;
+        }
+
+        .navbar-toggle {
+            border: 1px solid #ffffff;
+            margin: 15px 0;
+        }
+
+        .carousel-inner {
+            border-radius: 8px;
+            margin: 5px;
+        }
+
+        .carousel-caption {
+            text-shadow: 2px 2px 4px #000000;
+            padding: 20px;
+        }
+
+        .com {
+            text-align: center;
+            margin: 20px 0;
+            padding: 20px;
+            background-image: url('yel.jpg');
+        }
+
+        .about {
+            text-align: left;
+            color: #ffffff;
+        }
+
+        .about h1,
+        .com h1 {
+            color: #2619e1;
+        }
+
+        .com h2 {
+            color: #3226e4;
+        }
+
+        hr {
+            border-top: 2px solid #343a40;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: #ffffff;
+            padding: 15px 0;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .foo{
+            color: #f9f8fd;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 767px) {
+            .carousel-caption {
+                display: none;
+            }
+
+            .com,
+            .about {
+                padding: 10px;
+            }
+        }
+
+
+
+        /* Circular images */
+        .circular-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 20px auto;
+        }
+
+        .circular-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+
+        .testimonial .circular-image {
+            width: 200px;
+            height: 150px;
+            /* Adjust the height as needed */
+            overflow: hidden;
+            margin: 20px auto;
+        }
+        .col-lg-12{
+            color: #2619e1;
+        }
+        .testimonial .circular-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .cont{
+            color: #2619e1;
+        }
+        .cont1{
+            color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <!-- Half Page Image Background Carousel Header -->
+    <header id="myCarousel" class="carousel slide">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('wel.jpg');"></div>
+                <div class="carousel-caption"></div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('ssss.jpg');"></div>
+                <div class="carousel-caption"></div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('salon1.jpg');"></div>
+                <div class="carousel-caption"></div>
+            </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">CAMPUS FACILITY MANAGEMENT SYSTEM </a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="http://localhost/Complaint Management System/users/">User Login</a>
+                    </li>
+                    <li>
+                        <a href="http://localhost/Complaint Management System/users/registration.php">User
+                            Registration</a>
+                    </li>
+                    <li>
+                        <a href="http://localhost/Complaint Management System/admin/">Admin</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+
+
+
+                <div class="com">
+                    <h1><b>WELCOME TO</b></h1>
+                    <h1><b>CAMPUS FACILITY MANAGEMENT SYSTEM</b></h1>
+                    <p>
+                    <h2>The Easiest Way To Complaint Online </h2><br> <b><i>Tired off getting ripped off? Fight
+                            back and file a customer complaint now.Sign Up Today And You Can Leave Complaints on
+                            various problems.</b> </i></p>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+
+
+        <div class="about">
+            <h1>ABOUT US</h1>
+            <p>
+            <h4>National Institute of Technology, Warangal (Deemed University), formerly known as Regional
+                Engineering College, was established in 1959. Pandit Jawaharlal Nehru laid the foundation stone for
+                this institute on October 10, 1959, the first in the chain of 31 NITs (formerly known as RECs) in the
+                country.<br>
+
+                The Institute is well known for its dedicated faculty, staff and the state-of-the art infrastructure
+                conducive to a healthy academic environment. The Institute is constantly striving to achieve higher
+                levels of technical excellence. Evolving a socially relevant and yet internationally acceptable
+                curriculum, implementing innovative and effective teaching methodologies and focusing on the
+                wholesome development of the students are our concerns. Thanks to UNESCO and UK assistance in the
+                past, many developmental activities were undertaken. The World Bank Assistance under Technical
+                Education Quality Improvement Programme (TEQIP) had been a timely help in the overall development
+                of the Institute.<br>
+
+                The Institute currently has thirteen academic departments and a few advanced research centres in
+                various disciplines of engineering, pure sciences and management, with nearly 100 laboratories
+                organized in a unique pattern of functioning, Central Library with state of the art facilities,
+                Auditorium, Student Activity Centre, Mega Computer Centre (currently renamed as Centre for Digital
+                Infrastructure and Services (CDIS)), Indoor Games Complex, big stadium, Seminar Halls with required
+                infrastructure, Dispensary with state of art of facilities, etc. Faculty of repute, brilliant
+                student.</h4>
+            </p>
+
+            <h1>ABOUT HOSTEL</h1>
+            <p>
+            <h4>Hostels:
+                The Institute has excellent residential facilities for all the students admitted to the various
+                courses. There are twenty hostel blocks (halls of residence) for men and two for women.<br>
+
+                Hostel administration is managed by a Chief Warden and a team of Wardens drawn from the faculty and
+                appointed by the Director on a tenure basis. Hostel Advisory Council headed by the Director is
+                responsible for major policy decisions with respect to the hostel administration. Hostel Executive
+                Committee takes decisions on routine matters. Students have representation on both the
+                administrative bodies. Hostel office has full-fledged supporting staff and other workers.</h4>
+            </p>
+
+            
+            <h1>OUR FACILITIES</h1>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <!-- Circular Images -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="circular-image">
+                    <img src="nit.jpg" alt="Hostel Image">
+                </div>
+                <h3 class="text-center">Hostel</h3>
+            </div>
+            <div class="col-md-4">
+                <div class="circular-image">
+                    <img src="salon.jpg" alt="Salon Image">
+                </div>
+                <h3 class="text-center">Salon</h3>
+            </div>
+            <div class="col-md-4">
+                <div class="circular-image">
+                    <img src="badminton.webp" alt="Sports Image">
+                </div>
+                <h3 class="text-center">Sports</h3>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="container">
+    <div class="about">
+        <p>
+        <h4>We present the "Comprehensive Campus Services Management System." This innovative web-based platform seeks
+            to address a range of challenges, including hostel-related issues like filing complaints against plumbing,
+            carpentry, cleaning, and electrical concerns, along with introducing solutions for other aspects of campus
+            life. The primary objective is to provide an all-in-one solution that enhances convenience, efficiency, and
+            user experience for students.<br>
+            By addressing these challenges and providing innovative solutions, the "Comprehensive Campus Services
+            Management System" endeavors to enhance the quality of life for students, making campus living more
+            comfortable, efficient, and enjoyable.<br>
+        </h4>
+        </p>
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- Testimonial Section -->
+    <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>TEAM MEMBERS</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <div class="circular-image">
+                                <img src="santhosh.jpeg" alt="Team Member 1">
+                            </div>
+                            <h3 class="text-center">Ramavath Santhosh</h3>
+                            <p class="text-center">Project Manager</p>
+                        </div>
+                        <div class="item">
+                            <div class="circular-image">
+                                <img src="rohit.jpg" alt="Team Member 2">
+                            </div>
+                            <h3 class="text-center">Rohit</h3>
+                            <p class="text-center">Web Developer</p>
+                        </div>
+                        <div class="item">
+                            <div class="circular-image">
+                                <img src="sd.jpeg" alt="Team Member 3">
+                            </div>
+                            <h3 class="text-center">Animesh</h3>
+                            <p class="text-center">UI Designer</p>
+                        </div>
+                        <div class="item">
+                            <div class="circular-image">
+                                <img src="rushi.jpg" alt="Team Member 4">
+                            </div>
+                            <h3 class="text-center">Rushikesh</h3>
+                            <p class="text-center">Software Developer</p>
+                        </div>
+                        <div class="item">
+                            <div class="circular-image">
+                                <img src="deepak.jpg" alt="Team Member 5">
+                            </div>
+                            <h3 class="text-center">Deepak</h3>
+                            <p class="text-center">Backend Developer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#testimonialCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#testimonialCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+
+
+
+    <div class="container">
+
+        <!-- Contact Us Section -->
+        <div class="contact-us">
+            <h1 class="cont">CONTACT US</h1>
+            <p class="cont1">
+                If you have any questions or need further assistance, feel free to contact us.<br>
+                Email: <a href="mailto:info@cfms.com">info@cfms.com</a><br>
+                Phone: +1 (123) 456-7890
+            </p>
+        </div>
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="foo">Copyright &copy; 2023 CFMS &copy; Ramavath Santhosh & Team</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+        $('.carousel').carousel({
+            interval: 5000
+        })
+    </script>
+
+</body>
+
+</html>
